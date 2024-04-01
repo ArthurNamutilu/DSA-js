@@ -7,3 +7,4 @@ function fibonacci(n) {
 }
 
 console.log(fibonacci(7));
+console.log(fibonacci(14));
