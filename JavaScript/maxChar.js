@@ -3,6 +3,7 @@ function maxChar(str) {
   for (let char of str) {
     charMap[char] = charMap[char] + 1 || 1; // shortening if-else
   }
+
   let maxVal = -Infinity;
   let maxProp = null;
 
